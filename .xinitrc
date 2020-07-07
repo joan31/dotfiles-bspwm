@@ -65,10 +65,10 @@ startCmPrgs () {
 	numlockx &
 
 	# Démarrer la composition graphique
-	compton &
+	picom &
 
 	# Démarrer la bar des tâches
-	polybar example &
+	polybar top &
 
 	# Démarrer la notification
 	dunst &

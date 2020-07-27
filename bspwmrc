@@ -1,0 +1,6 @@
+# Autostart and lock to avoid multiple sxhkd when restart bspwm
+startup_lock_file=/tmp/bspwm-startup.lock
+if [ ! -f $startup_lock_file ]; then
+       touch $startup_lock_file
+       sxhkd &
+fi

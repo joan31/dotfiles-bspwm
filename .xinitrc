@@ -65,7 +65,7 @@ startCmPrgs () {
 	numlockx &
 
 	# Démarrer la composition graphique
-	picom &
+	picom --experimental-backends &
 
 	# Démarrer la bar des tâches
 	polybar top &

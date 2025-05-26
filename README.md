@@ -1,5 +1,7 @@
 # 🧩 bspwm Dotfiles
 
+[![Project Status: Archived](https://img.shields.io/badge/status-archived-lightgrey.svg)](https://github.com/joan31/dotfiles-bspwm)
+
 ## ⚠️ Archived - No longer maintained
 
 This repository contains my old configuration files for **bspwm** window managers.
